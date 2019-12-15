@@ -7,6 +7,12 @@
 header{
   height: 60px;
   background-color: #6c839a;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.icon{
+
 }
 main{
   display: flex;
@@ -16,7 +22,7 @@ main{
 }
 .cardwrapper{
   width: 60%;
-  height: 90%;
+  min-height: calc( 100vh - 60px) ;
   margin:  auto;
   display: flex;
   flex-flow: wrap;
@@ -55,4 +61,21 @@ main{
   display: block;
   color: #6c839a;
   font-size: 10px;
+}
+#generes{
+  display: block;
+  text-align: center;
+  margin-right: 50px;
+  font-size: 12px;
+  background-color: #1d2d3b;
+  color:#dee5ed;
+
+}
+.searchy{
+  margin-right: 10px;
+  background-color: #1d2d3b;
+  color:#dee5ed;
+  font-size: 12px;
+  border: 1px solid #dee5ed;
+  border-radius: 5%;
 }
